@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtMaHoaDon"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Họ Và Tên: "
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/extHoVaTen"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Trần Phi Long"
+        android:textColor="#FF0"
+        android:layout_toRightOf="@+id/txtMaHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+
+        android:id="@+id/txtMaBan"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Số Điện Thoại: "
+        android:layout_below="@+id/txtMaHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#FF0"
+        android:id="@+id/extSoDienThoai"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="0382965484 "
+        android:layout_below="@+id/txtMaHoaDon"
+        android:layout_toRightOf="@+id/txtMaBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txtTinhTrang"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Email: "
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/txtMaBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_marginLeft="60dp"
+        android:textSize="15sp"
+        android:textColor="#FF0"
+        android:id="@+id/extEmail"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Email: "
+        android:layout_toRightOf="@+id/txtTinhTrang"
+        android:layout_below="@+id/txtMaBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</RelativeLayout>

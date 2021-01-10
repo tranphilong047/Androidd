@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ThemBanAn" type="id" />
+    <item name="ThemThucDon" type="id" />
+    <item name="ThemNhanVien" type="id" />
+</resources>

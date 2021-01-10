@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textColor="#F44336"
+        android:layout_centerHorizontal="true"
+        android:text="Bàn 1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/tenbanAN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageView
+        android:layout_below="@+id/tenbanAN"
+        android:src="@drawable/banan"
+        android:id="@+id/hinhBan"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+    </ImageView>
+    <ImageView
+        android:visibility="invisible"
+        android:layout_margin="4dp"
+        android:layout_below="@+id/hinhBan"
+        android:id="@+id/goimon"
+        android:src="@drawable/goimon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <ImageView
+        android:visibility="invisible"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@+id/goimon"
+        android:layout_below="@+id/hinhBan"
+        android:id="@+id/thanhtoanban"
+        android:src="@drawable/thanhtoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <ImageView
+        android:visibility="invisible"
+        android:layout_margin="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/thanhtoanban"
+        android:layout_below="@+id/hinhBan"
+        android:id="@+id/huyban"
+        android:src="@drawable/anbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+</RelativeLayout>

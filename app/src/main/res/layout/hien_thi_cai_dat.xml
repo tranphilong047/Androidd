@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/hinhanhap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/lnHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="20dp"
+            android:src="@drawable/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#ff0"
+                android:textSize="30sp"
+                android:text="Mì Cay SaSin"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:textColor="#ACAC91"
+                android:text="Ăn uống thả ga cùng SaSin,Hít hà cùng SaSin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnThongTin"
+        android:layout_below="@+id/lnHeader"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="THÔNG TIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/iprofile"
+            android:layout_marginLeft="40dp"
+            android:textColor="#F1C40F"
+            android:textSize="20sp"
+            android:text="Giới thiệu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ipolicy"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#F1C40F"
+            android:textSize="20sp"
+            android:text="Chính sách bảo mật"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icomment"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#F1C40F"
+            android:textSize="20sp"
+            android:text="Đánh giá ứng dụng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ihelp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#F1C40F"
+            android:textSize="20sp"
+            android:text="Hỗ trợ và Góp ý"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnTaiKhoan"
+        android:layout_below="@+id/lnThongTin"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="TÀI KHOẢN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/iedit"
+            android:layout_marginLeft="40dp"
+            android:textColor="#F1C40F"
+            android:textSize="20sp"
+            android:text="Chỉnh sửa tài khoản"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ilogout"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#F1C40F"
+            android:textSize="20sp"
+            android:text="Đăng Xuất"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+</RelativeLayout>

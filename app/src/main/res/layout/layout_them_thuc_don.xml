@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/hinhanhap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/titlethem"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff0"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Thêm Món Ăn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/hinhanh"
+        android:textColor="#FFFFFF"
+        android:hint="Mì Kim Chi Bò "
+        android:textColorHint="#ACAC91"
+        android:id="@+id/edittenmon"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/titlethem"
+        android:text="Hình Ảnh: "
+        android:textColor="#ACAC91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageView
+        android:src="@drawable/monan"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/titlethem"
+        android:id="@+id/hinhanh"
+        android:layout_width="180dp"
+        android:layout_height="180dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/tenmon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/hinhanh"
+        android:text="Tên Món Ăn: "
+        android:textColor="#ACAC91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/tenmon"
+        android:text="Loại Món Ăn: "
+        android:textColor="#ACAC91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Spinner
+        android:id="@+id/loaimon"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tenmon"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Button
+        android:id="@+id/btnThemloai"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:text="Thêm Loại"
+        android:background="@drawable/custom_button"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/loaimon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnThemloai"
+        android:text="Giá: "
+        android:textColor="#ACAC91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:numeric="decimal"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btnThemloai"
+        android:textColor="#FFFFFF"
+        android:hint="50,000 "
+        android:textColorHint="#ACAC91"
+        android:id="@+id/txtMaBan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+    <TextView
+        android:id="@+id/mota"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMaBan"
+        android:text="Mô tả: "
+        android:textColor="#ACAC91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <EditText
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ACAC91"
+        android:hint="Mô tả sản món ăn: "
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/editmota"
+        android:layout_width="389dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/mota"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnthoat"
+        android:layout_width="155dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/editmota"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button"
+        android:text="Thoát"
+        android:textColor="#FF0000"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/dongythem"
+        android:layout_width="155dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/editmota"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Thêm"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="114dp"
+        android:layout_height="104dp"
+        android:src="@drawable/mi1"></ImageView>
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtMaHoaDon"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="MÌ KIM CHI BÒ"
+        android:textColor="#ff0"
+        android:layout_toRightOf="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/txtMaBan"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Giá:"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/txtMaHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txtTinhTrang"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Mì Chinnoo, bò, cá viên, xúc xích, nấm kim châm, kim chi, bắp cải tím, bông cải xanh."
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/txtMaBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<resources>
+        <string name="ng_nh_p">Đăng Nhập</string>
+    <string name="dangky">Đăng Ký</string>
+        <string name="password">Mật khẩu</string>
+        <string name="email">Số điện thoại</string>
+        <string name="todo">TODO</string>
+        <string name="textdangky">Đăng Ký</string>
+        <string name="hoi">Trở về </string>
+    <string name="hoten">Họ tên</string>
+        <string name="emaildy">Email</string>
+        <string name="sodienthoi">Số điện thoại</string>
+    <string name="app_name">Mỳ Cay SaSin</string>
+        <string name="toastdienthongtinsdt">Vui lòng điền số điện thoai</string>
+        <string name="toastdienthongtinemail">Vui lòng điền số Email</string>
+        <string name="toastdienthongtinhoten">Vui lòng điền số Họ Tên</string>
+        <string name="toastdienthongtinmatkhau">Vui lòng điền số Mật Khẩu</string>
+        <string name="thoat">Thoát</string>
+        <string name="themthanhcong">Đăng Ký Thành Công</string>
+        <string name="themkhongthanhcong">Đăng Ký Không Thành Công</string>
+    <string name="DNkhongthanhcong">Đăng Nhập Không Thành Công</string>
+        <string name="mo">Mở</string>
+        <string name="dong">Đóng</string>
+        <string name="trang_ch">Trang Chủ</string>
+        <string name="thuc_don">Thực Đơn</string>
+        <string name="nhanvien">Nhân Viên</string>
+        <string name="thongke">Thống Kê</string>
+        <string name="caidat">Cài Đặt</string>
+        <string name="themban">Thêm Bàn</string>
+        <string name="ban_an">Bàn Ăn</string>
+    <string name="tenbanan">Tên Bàn Ăn</string>
+        <string name="thembanthanhcong">Thêm Thành Công</string>
+        <string name="thembankhongthanhcong">Thêm Không Thành Công</string>
+        <string name="themthucdon">Thêm Thực Đơn</string>
+    <string name="themnhanvien">Thêm Nhân Viên</string>
+    <string name="vuilongnhapdulieu">Vui Lòng Nhập Dữ Liệu</string>
+    <string name="xoathanhcong">Xóa Thành Công</string>
+    <string name="xoathatbai">Xóa Thất Bại</string>
+    <string name="capnhatthanhcong">Cập Nhật Thành Công</string>
+    <string name="capnhatthatbai">Cập Nhật Thất Bại</string>
+    <string name="capnhatnhanvien">Cập Nhật Nhân Viên</string>
+
+
+
+
+</resources>
